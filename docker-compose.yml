@@ -1,7 +1,7 @@
 services:
   db:
     image: postgres:latest
-    container_name: oauth2_db
+    container_name: auth-with-oauth2
     volumes:
       - ./data:/var/lib/postgresql/data
     ports:
