@@ -10,10 +10,7 @@ export const metadata: Metadata = {
   description: "private",
 };
 
-export default async function Private({}: // children,
-Readonly<{
-  children: React.ReactNode;
-}>): Promise<React.JSX.Element> {
+export default async function Private() {
   const currentUser = await getCurrentUser({ redirectIfNotFound: true });
   return (
     <div className="flex flex-col w-full gap-4 p-4">

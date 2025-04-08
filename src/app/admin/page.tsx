@@ -6,10 +6,10 @@ export const metadata: Metadata = {
   description: "admin",
 };
 
-export default function Admin({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>): React.JSX.Element {
-  return <>Admin</>;
+export default function Admin() {
+  return (
+    <div>
+      <h1>Admin</h1>
+    </div>
+  );
 }
