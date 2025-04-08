@@ -126,7 +126,9 @@ This project is a robust authentication system built with the latest version of 
 - `npm run dev`: Start the development server.
 - `npm run build`: Build the project for production.
 - `npm run start`: Start the production server.
-- `npm run drizzle:migrate`: Run database migrations using Drizzle ORM.
+- `npm run db:generate`: Generate database tables using Drizzle ORM.
+- `npm run db:migrate`: Run database migrations using Drizzle ORM.
+- `npm run db:studio`: Open the Drizzle Studio for database management.
 
 ---
 
